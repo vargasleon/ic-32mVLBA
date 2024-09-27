@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+    </head>
+    <body>
+        <div id="contenedor">
+            <form method="post" >
+                <p>
+                    <label for="nombre"> Nombre</label><br><br>
+                    <input type="text" id="nombre" name="nombre" autofocus required placeholder="proporcione su nombre">
+                </p>
+
+                <p>
+                    <label for="Apeliido"> Apellido</label><br><br>
+                    <input type="text" id="Apellido" size="40" name="Apeliido" autofocus required  placeholder="proporcione su Apeliido">
+                </p>
+
+                <p>
+                    <label for="estatus"> Estatus</label><br><br>
+                    <input type="text" name="estatus" value="activo" readonly title="Este valor es de lectura">
+                </p>
+
+                <p>
+                    <label for="contraseña"> Su contraseña</label><br><br>
+                    <input type="password" id="contraseña" name="contraseña" required placeholder="ejemplo: Ejemplo23#@">
+                </p>
+
+                <p>
+                    <input type="hidden" name="nip" value="765">
+                </p>
+            
+                <p>
+                    <label for="navegador"> navegador favorito</label>
+                    <select name="navegador" id="navegador" required>
+                        <option value="chrome">google chrome</option>
+                        <option value="opera">opera</option>
+                        <option value="edge">edge</option>
+                        <option value="safari">safari</option>
+                        <option value="firefox">firefox</option>
+                    </select>
+                </p>
+
+                <p>
+                    <input type="submit" name="enviar" value="enviar">
+                </p>
+            </form>
+        </div>
+    </body>
+</html>

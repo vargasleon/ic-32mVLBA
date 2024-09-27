@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=    <!-- Mas elementos del formulario -->
+    <div id="contenedor">
+       <form method="get">
+           <p>
+               <label for="comentarios">Comentarios</label><br>
+               <!-- cols hace refencia al ancho, readoly para no modificar el texto que e coloca dentro del formulario -->
+               <textarea cols="40" rows="8" required id="msg" name="msg">Terminos y condiciones</textarea>
+           </p>
+           <p>
+               <label for="lenguaje">lenguaje(s) favoritos</label><br>
+               <select name="lenguaje" id="lenguaje" required multiple="true">
+                   <option value="">Seleccione</option>
+                   <option value="php">PHP</option>
+                   <option value="phyton">Phyton</option>
+                   <option value="javascript">JavaScript</option>
+                   <option value="java">Java</option>
+                   <option value="c++">C++</option>
+               </select>
+           </p>
+           <p>
+               <input type="submit" id="remitir"value="Remitir informacion">
+           </p>
+           <p>
+               <label for="imagen">Seleccione una imagen</label><br>
+               <!-- Pra subir una imagen se necesita un atributo adicional -->
+               <input type="file" id="imagen" name="imagen" required>
+           </p>
+           <p></p>
+               <label for="imagenes">Seleccione una imagen</label><br>
+               <input type="file" id="imagenes" name="imagenes" required multiple="true">
+           </p>
+           <p>
+               <label for="so">Sistema Operativo</label><br>
+               <!-- Se puede seleccionar mas de una opcion -->
+               <input type="checkbox" id="so1" name="so1" value="mindows">Windows<br>
+               <input type="checkbox" id="so2" name="so2" value="modificar">Macos<br>
+               <input type="checkbox" id="so3" name="so3" value="linux">Linux<br>
+           </p>
+           <p>
+               <label for="so">Sistema Operativo</label><br>
+               <!-- Solo se puede seleccionar uno y con el mismo nombre -->
+               <input type="radio" id="so" name="so" value="mindows">Windows<br>
+               <input type="radio" id="so" name="so" value="modificar">Macos<br>
+               <input type="radio" id="so" name="so" value="linux">Linux<br>
+           </p>
+           <p>
+               <button id="listar">Listar Datos</button> &nbsp;&nbsp;
+               <button id="guardar">Guardar Datos</button> &nbsp;&nbsp;
+               <button id="eliminar">Eliminar Datos</button> &nbsp;&nbsp;
+               <button id="editar">Editar Datos</button> &nbsp;&nbsp;
+               <!--<button type="submit" id="remitir">Remitir Datos</button> -->
+           </p>
+           <p>
+               <!-- nuevos elementos de formulario -->
+                <label for="date">Fecha</label><br>
+                <input type="date" id="fecha" name="fecha" required>
+           </p>
+           <p>
+               <label for="hora">Hora de registro</label><br>
+               <input type="time" id="hora" name="hora" required>
+           </p>
+           <p>
+               <label for="edad">Seleccione su edad</label><br>
+               <input type="number" id="edad" name="edad" required min="0" max="100" step="5">
+           </p>
+           <p>
+               <label for="email">Correo</label> <br>
+               <input type="email" id="correo" name="correo" required>
+           </p>
+           <p>
+               <input type="submit" id="remitir" value="Remitir Informacion">
+           </p>
+       </form>
+    </div>
+</body>
+</html>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>

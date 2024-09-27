@@ -1,0 +1,75 @@
+
+/*selector unieversal*/
+/*propiedad: valor*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:  #900404; 
+    color: black; 
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1em; 
+}
+
+#contenedor{
+    width: 90%; 
+    margin: 5px auto; 
+}
+
+nav{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    position: fixed;
+    width: 90%;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+nav ul li a{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    text-decoration: none; 
+}
+
+a:hover{ 
+    color: black;
+    text-decoration: underline;
+}
+
+header{
+    margin-top: 40px;
+    height: 550px;
+    background: silver url("../img/porsche-logo.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    text-align: center;
+    line-height: 150px;
+}
+
+h1{
+    color: rgb(7, 1, 1);
+    font-family: fantasy;
+}
+
+h2,h3{
+    text-align: center;
+    margin: 10px;
+} 
+h3{
+    color:black;
+}
+
+p{
+    padding: 10px;
+    text-align: justify;
+    border: 2px #f00909 dashed;
+    border-radius: 10px;
+    margin:  3px 25px;
+}

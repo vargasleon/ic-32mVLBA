@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/formulario3.css">
+</head>
+<body>
+    <div id="contenedor">
+        <img src="https://thumbs.dreamstime.com/b/l%C3%ADnea-icono-del-negro-avatar-perfil-de-usuario-121102131.jpg" width="130px">
+        <h1>FORMULARIO DE CONTACTO</h1>
+        <form method="post" >
+            <p>
+                <label for="nombre"> Nombre completo</label><br><br>
+                <input type="text" id="nombre" name="nombre" autofocus required placeholder="proporcione su nombre">
+                <form method="post" >
+                <input type="text" id="apellido" name="dirccion" autofocus required placeholder="proporcione su apellido"><br><br>
+                    </p>
+            </p>
+
+        <FORM method="post">
+            <p>
+            <label for="dirccion">DIRECCION</label><br><br>
+            <input type="text" id="direccion" size="40" name="direccion" autofocus required  placeholder="proporcione su DIRECCION"><br><br>
+        </p>
+        
+        <p>
+            <select name="municipio" id="municipio" required>
+                <option value="nezahualcoyotl">nezahualcoyotl</option>
+                <option value="texcoco">texcoco</option>
+                <option value="los reyes">los reyes</option>
+                <option value="chimahualcan">chimahualcan</option>
+                <option value="Chalco">Chalco</option>
+            </select>
+            <select name="estado" id="estado" required>
+                <option value="De Mexico">De Mexico</option>
+                <option value="Ciudad de Mexico">Ciudad de Mexico</option>
+                <option value="Sonora">Sonora</option>
+                <option value="Puebla">Puebla</option>
+                <option value="Chihuahua">Chihuahua</option>
+            </select>
+            <input type="text" id="codigopostal" size="5" name="Codigopostal" autofocus required  placeholder="c.p."><br><br>
+        </p>
+<p>
+    <input type="text" id="telefono" size="5" name="telefono" autofocus required  placeholder="telefono">
+    <label for="date">Fecha de nacimiento</label>
+    <input type="date" id="fecha" name="fecha" required><br><br>
+
+</p>
+<p>
+    <input type="radio" id="so" name="so" value="Acepto termino y condiciones">Acepto termino y condiciones<br><br>
+</p>
+<p>
+    <textarea cols="40" rows="8" required id="msg" name="msg">Comentarios adicionales</textarea>
+
+</p>
+
+<p>
+    <button type="submit" class="caja boton"><b>Ver mas</b></button>
+
+</p>
+</body>
+</html>
